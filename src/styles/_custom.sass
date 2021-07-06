@@ -109,7 +109,7 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
     right: 0
     width: $crd-width
     height: 100%    
-    background-color: #c9c9c9
+    background-color: #F0EFEF
     border-radius: 15px
     z-index: -1
   &__icon
@@ -125,3 +125,35 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
 
 .fr
   float: right !important
+
+.bloque-texto-a.color-primario
+  background-color: rgba(225,228,230,.95)
+
+.cajon.color-primario
+  background-color: rgba(101,149,191,.25)
+
+.bloque-texto-d.color-primario
+  &::before
+    background-color: rgba(216,228,239,.63)
+
+.tarjeta--container
+  .tarjeta.color-acento-contenido
+    background-color: #f6e7db
+  .tarjeta.color-primario
+    background-color: #D8E4EF
+
+.tarjeta.color-acento-contenido
+  &--borde
+    border-color: rgba(18,38,63,.13) !important
+
+.tabs-a__tab
+  background-color: rgba(18,38,63,.13) !important
+  &__selected
+    background-color: $color-acento-contenido !important
+
+.anexo
+  background-color: #f6f6f6 !important
+
+.tabla-b
+  th, td
+    border: 2px dashed #000000

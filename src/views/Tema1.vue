@@ -223,7 +223,7 @@
     p.mb-5 El Marco Conceptual para la Información Financiera fue expedido inicialmente en 1989 por el Comité de Normas Internacionales de Contabilidad (IASC). Posteriormente, fue ampliado por la junta internacional de normas de contabilidad (IASB) y publicado en septiembre de 2010, donde permanece el documento inicial y se registran otras novedades. Fue revisado, modificado y emitido una vez más el 29 de marzo de 2018, con el fin de realizar mejoras al documento en cuanto a conceptos de reconocimiento, medición, presentación y revelación en la aplicación contable. Estas últimas disposiciones comenzaron a implementarse a partir del 1 de enero de 2020.
     .row.mb-5
       .col-lg-7
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4.mb-4
           p.mb-0 La relación entre objetivos, características y elementos de los estados financieros de propósito general es importante para la generación de información comparativa que contribuya con la toma de decisiones (Consejo de Normas Internacionales de Contabilidad, 2018).
         p Entre los estados financieros se encuentran:
         ul.lista-ul.ms-5.cac__ul
@@ -328,7 +328,7 @@
             img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
           .crd_01__txt
             h5 Valor corriente
-            .bloque-texto-d.color-secundario.p-4
+            .bloque-texto-d.color-primario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
                 h3.text-regular Las mediciones del valor corriente proporcionan información monetaria sobre activos, pasivos, e ingresos y gastos relacionados, usando información actualizada para reflejar las condiciones en la fecha de medición. Debido a la continua actualización, los valores corrientes de activos y pasivos reflejan los cambios, desde la fecha de medición anterior, en las estimaciones de flujos de efectivo y otros factores reflejados en los valores.
@@ -339,7 +339,7 @@
             img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
           .crd_01__txt
             h5 Valor razonable
-            .bloque-texto-d.color-secundario.p-4
+            .bloque-texto-d.color-primario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
                 h3.text-regular Valor razonable es el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado, en la fecha de la medición.
@@ -350,7 +350,7 @@
             img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
           .crd_01__txt
             h5 Valor en uso y valor de cumplimiento
-            .bloque-texto-d.color-secundario.p-4
+            .bloque-texto-d.color-primario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
                 h3.text-regular El valor en uso es el valor presente de los flujos de efectivo, o de otros beneficios económicos, que una entidad espera obtener del uso de un activo y de su disposición final. El valor de cumplimiento es el valor presente de los flujos de efectivo o de otros beneficios económicos, que una entidad espera verse obligada a transferir a medida que satisface un pasivo.
@@ -361,7 +361,7 @@
             img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
           .crd_01__txt
             h5 Costo corriente
-            .bloque-texto-d.color-secundario.p-4
+            .bloque-texto-d.color-primario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
                 h3.text-regular El costo corriente de un activo es el costo de un activo equivalente en la fecha de medición, que comprende la contraprestación que se pagaría en la fecha de medición más los costos de transacción en los que se incurriría en esa fecha.
@@ -380,7 +380,7 @@
     p Para seleccionar las bases de medición, que se relacionarán en el Manual de políticas contables, es fundamental analizar el tipo de empresa y su entorno, tendiendo en cuenta las circunstancias y eventos que se generen para determinar lo más adecuado para la organización. Aunado a ello, se tiene en cuenta el concepto y características de los elementos de los estados financieros, las cualidades fundamentales y de mejora.
     p.mb-5 Es de suma importancia presentar información financiera confiable, oportuna, comprensible y comparable, con el fin de facilitar la toma de decisiones a la gerencia:
     .col-lg-10.mx-auto
-      .bloque-texto-d.color-secundario.p-4
+      .bloque-texto-d.color-primario.p-4
         .bloque-texto-d__texto.mb-2
           i.fas.fa-quote-left
           h3.text-regular La comunicación efectiva de la información de los estados financieros requiere: (a) centrarse en los objetivos y principios de presentación e información a revelar en lugar de centrarse en reglas; (b) clasificar la información de forma que agrupe las partidas similares juntas y las diferentes de forma separada; y (c) agregar información de forma que no se ensombrezca con detalles innecesarios o agregación excesiva.
@@ -502,7 +502,7 @@
       .col-lg-6
         figure
             img(src='@/assets/curso/t1/f32.svg', alt='Imagen relacionada')
-    .cajon.color-primario.p-5
+    .cajon.color-primario.p-4.mb-5
       p.mb-0 Una vez se tiene claridad de la información, es importante iniciar con el diseño del manual de políticas contables. Para ello, se relacionan los siguientes elementos (Warren, Reeves y Duchac, 2016; Santos-Cid, 2018; Vilches, 2019; Angulo, 2018):
     .row.mb-5
       .col-lg-4.mx-auto

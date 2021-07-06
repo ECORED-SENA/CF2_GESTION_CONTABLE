@@ -337,22 +337,58 @@
         table.text-center
           thead.fac
             tr
-              th Clases de cuentas
-              th Aumento
-              th Disminuye
+              td Clase
+              td El primer dígito
+              td 1 ACTIVO
           tbody
             tr
+              th Grupo
+              td Los dos primeros dígitos.
+              td 11 Disponible.
+            tr
+              th Cuenta
+              td Los cuatro primeros dígitos.
+              td 1110 Bancos.
+            tr
+              th subcuenta
+              td Los seis primeros dígitos.
+              td 111005 Bancos nacionales.
+            tr
+              th Auxiliares
+              td Con siete o más dígitos.
+              td 11100501 Banco BBVA.
+        figcaption Fuente: Decreto 2650 de 1993
     p.mb-5 Las clases que expresan cada dígito son:
     .col-lg-7.mx-auto.mb-5
       .tabla-b.color-acento-contenido.mb-5.fblanco
         table.text-center
           thead.fac
             tr
-              th Clases de cuentas
-              th Aumento
-              th Disminuye
+              th Clase
+              th
           tbody
             tr
+              td Clase 1
+              td Activo.
+            tr
+              td Clase 2
+              td Pasivo.
+            tr
+              td Clase 3
+              td Patrimonio.
+            tr
+              td Clase 4
+              td Ingresos.
+            tr
+              td Clase 5
+              td Gastos.
+            tr
+              td Clase 6
+              td Costos de ventas.
+            tr
+              td Clase 7
+              td Costos de producción.
+        figcaption Fuente: Decreto 2650 de 1993
     Separador
     #t_2_3.titulo-segundo
       h2 2.3 Partida doble
