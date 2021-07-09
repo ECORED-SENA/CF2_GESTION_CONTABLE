@@ -76,13 +76,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Ecuación contable',
+            titulo: 'Partida doble',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Partida doble',
+            titulo: 'Ecuación contable',
             hash: 't_2_4',
           },
         ],
@@ -176,61 +176,61 @@ export default {
     {
       termino: 'Capital',
       significado:
-        '	Es el aporte de los socios, puede darse en aporte financieros o industrial.',
+        'Es el aporte de los socios, puede darse en aporte financieros o industrial.',
     },
     {
-      termino: 'Costo histórico	',
+      termino: 'Costo histórico',
       significado: 'Es el valor de la transacción de la operación.',
     },
     {
-      termino: 'Cuenta	',
+      termino: 'Cuenta',
       significado:
         'Es el término usado en información financiera para registrar los hechos económicos de la empresa.',
     },
     {
-      termino: 'Cuentas reales	',
+      termino: 'Cuentas reales',
       significado:
         'Son las cuentas que conforman el estado de situación financiera, estas son: activo, pasivo y patrimonio.',
     },
     {
-      termino: 'Cuentas de resultado	',
+      termino: 'Cuentas de resultado',
       significado:
         'Son aquellas cuentas que reflejan el resultado del ejercicio, el cual ´puede ser una utilidad o perdida. Las cuentas son ingresos y gastos.',
     },
     {
-      termino: 'Debe	',
+      termino: 'Debe',
       significado: 'Significa registrar el valor monetario al lado izquierdo.',
     },
     {
-      termino: 'Efectivo	',
+      termino: 'Efectivo',
       significado:
         'Es el dinero que se encuentra en las cuentas de caja, Bancos e inversiones a corto plazo (90 días).',
     },
     {
-      termino: 'Estado de situación financiera	',
+      termino: 'Estado de situación financiera',
       significado:
         'Es un estado integrado por los elementos de activo, pasivo y patrimonio.',
     },
     {
-      termino: 'Estado de resultados	',
+      termino: 'Estado de resultados',
       significado:
         'Es un estado financiero compuesto por las cuentas de ingresos, gastos y costos que reflejan el resultado del ejercicio.',
     },
     {
-      termino: 'Haber	',
+      termino: 'Haber',
       significado: 'Corresponde al registro del precio al lado derecho.',
     },
     {
-      termino: 'Partida doble	',
+      termino: 'Partida doble',
       significado:
         'Es la igualdad de los registros del debe y en haber en el asiento contable, presentando un equilibrio.',
     },
     {
-      termino: 'Patrimonio	',
+      termino: 'Patrimonio',
       significado: 'Es la diferencia presentada entre activo y pasivo.',
     },
     {
-      termino: 'Políticas contables	',
+      termino: 'Políticas contables',
       significado:
         'Son las bases, regla y procedimientos aplicables por una empresa para presentar los estados financieros.',
     },
@@ -308,13 +308,42 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Maria Carolina Tamayo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Carmen Martinez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ludwyn Corzo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -33,7 +33,7 @@
       .col-lg-5.p-4
         img(src='@/assets/curso/t1/f1.svg' alt='Mujer haciendo cuentas')
     h3 Campo de acción de la contabilidad o información contable
-    p.mb-5 De acuerdo con el tipo de empresa y/o campo de acción, la contabilidad Se clasifica de la siguiente manera (Vilches, 2019):
+    p.mb-5 De acuerdo con el tipo de empresa y/o campo de acción, la contabilidad se clasifica de la siguiente manera (Vilches, 2019):
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Contabilidad pública")
         .row.align-items-center
@@ -42,7 +42,7 @@
               img(src='@/assets/curso/t1/f2.svg', alt='Imagen relacionada')
           .col-md-6.mb-4.mb-md-0
             h4 Contabilidad pública
-            p Se ocupa de las transacciones realizadas por entidades del Estado y, por ende, Se rigen por las normas que expida la Contaduría General de la Nación.
+            p Se ocupa de las transacciones realizadas por entidades del Estado y, por ende, se rigen por las normas que expida la Contaduría General de la Nación.
       .py-3.py-md-4(titulo="Contabilidad de servicios")
         .row.align-items-center
           .col-md-5.mx-auto.p-4
@@ -129,7 +129,7 @@
             h3.text-regular Proporcionar información financiera sobre la entidad que informa que sea útil a los inversores, prestamistas y otros acreedores existentes y potenciales para tomar decisiones sobre el suministro de recursos a la entidad. Esas decisiones conllevan, comprar, vender o mantener patrimonio e instrumentos de deuda, y proporcionar o liquidar préstamos y otras formas de crédito.
             i.fas.fa-quote-right.cac
         .cajon.color-acento-contenido.p-4
-          p.mb-0 Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018), a través del siguiente enlace:
+          p Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018), a través del siguiente enlace:
         .row.mt_5.px-4
           .col-lg-4
           .col-lg-8  
@@ -160,32 +160,32 @@
           .col-5
                 figure
                   img(src='@/assets/curso/t1/f15.svg', alt='Documentos')
-        h3.text-center Relevancias
+        h3.text-center Representación fiel
         p.text-center La información debe estar completa de acuerdo con los hechos económicos presentados. Así mismo, debe ser neutral y objetiva, evitando los sesgos en la información presentada y garantizando que esté libre de error.
     h3.mb-5 Características de mejora
     TabsA.color-acento-contenido.mb-5
-      .tarjeta.color-acento-contenido--borde.p-5(titulo="CARACTERÍSTICA 1")
+      .tarjeta.color-acento-contenido--borde.p-5(titulo="Comparabilidad")
         .row.align-items-center
           .col-lg-6
             h4 Comparabilidad
             p Se refiere a la comparación que se realiza con otras entidades con información similar o con la misma entidad en diferentes periodos.
           .col-lg-3.mx-auto
             img(src='@/assets/curso/t1/f16.svg', alt='Balanza')
-      .tarjeta.color-acento-contenido--borde.p-5(titulo="CARACTERÍSTICA 2")
+      .tarjeta.color-acento-contenido--borde.p-5(titulo="Verificabilidad")
         .row.align-items-center
           .col-lg-6
             h4 Verificabilidad
             p Es la representación fiel de los hechos económicos, a partir de la revisión del registro de las operaciones y los procesos mediante la observación directa.
           .col-lg-3.mx-auto
             img(src='@/assets/curso/t1/f17.svg', alt='Balanza')
-      .tarjeta.color-acento-contenido--borde.p-5(titulo="CARACTERÍSTICA 3")
+      .tarjeta.color-acento-contenido--borde.p-5(titulo="Oportunidad")
         .row.align-items-center
           .col-lg-6
             h4 Oportunidad
             p Consiste en obtener la información en el momento adecuado para la toma de decisiones, por ende, debe estar actualizada.
           .col-lg-3.mx-auto
             img(src='@/assets/curso/t1/f18.svg', alt='Balanza')
-      .tarjeta.color-acento-contenido--borde.p-5(titulo="CARACTERÍSTICA 4")
+      .tarjeta.color-acento-contenido--borde.p-5(titulo="Comprensibilidad")
         .row.align-items-center
           .col-lg-6
             h4 Comprensibilidad
@@ -262,23 +262,25 @@
         p Es la parte residual de los activos de la entidad, una vez deducidos todos sus pasivos.
       .col-lg-1
     p.mb-5 En el estado de resultados integral, se encuentran los elementos de ingresos y gastos (Consejo de Normas Internacionales de Contabilidad, 2018):
-    .row.align-items-center.px-5
+    .row.align-items-center.px-5.mb-5
       .col-lg-4  
         img(src="@/assets/curso/t1/f25.svg" alt="Mujer y lista de chequeo")
       .col-lg-8
-        LineaTiempoD.color-acento-contenido.mb-5
+        LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Definición de ingresos")
             p.mb-4.mb-md-0 Son incrementos en los activos o disminuciones en los pasivos que dan lugar a incrementos en el patrimonio, distintos de los relacionados con aportaciones de los tenedores de derechos sobre el patrimonio.
           .row(numero="2" titulo="Definición de gastos")
-            p.mb-4.mb-md-0 Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018) a través del siguiente enlace:
-        .row.mt_5.px-4
-          .col-lg-4
-          .col-lg-8  
-            a.anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-iasb-emitidas-en-2018/5-c-marco-conceptual-para-la" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link.svg" alt="icono enlace")
-              .anexo__texto
-                p <b>Enlace web.</b> Marco Conceptual para la Información Financiera
+            p.mb-4.mb-md-0 Disminuciones en los activos o incrementos en los pasivos que dan lugar a disminuciones en el patrimonio, distintos de los relacionados con distribuciones de los tenedores de derechos sobre el patrimonio. 
+    .cajon.color-acento-contenido.p-4.mb-0        
+      p Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018) a través del siguiente enlace:
+    .row.mt_5.px-4
+      .col-lg-4
+      .col-lg-8  
+        a.anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-iasb-emitidas-en-2018/5-c-marco-conceptual-para-la" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg" alt="icono enlace")
+          .anexo__texto
+            p <b>Enlace web.</b> Marco Conceptual para la Información Financiera
     Separador
     #t_1_3.titulo-segundo
       h2 1.3 Reconocimiento, medición, presentación, revelación y baja de cuentas de los elementos de los estados financieros
@@ -368,7 +370,7 @@
                 .h5.mb-0.text-right (Consejo de Normas Internacionales de Contabilidad, 2018. p. 45).
                 i.fas.fa-quote-right.fr
     .cajon.color-acento-contenido.p-4
-      p.mb-0 Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018), a través del siguiente enlace:
+      p Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018), a través del siguiente enlace:
     .row.mt_5.px-4.mb-5
       .col-lg-4
       .col-lg-8  
@@ -392,8 +394,8 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Política contable
-    p.mb-5 
+      //figcaption Video: Política contable
+    p.mb-5 Para diseñar las políticas contables es importante identificar el grupo de presentación de información financiera: Grupo 1-NIIF plenas, Grupo 2-NIIF Pymes, Grupo 3– NIF Microempresas. Según los lineamientos del Decreto Único Reglamentario -DUR- 2420 de 2015, el grupo 1, posee las siguientes características:
     .row.align-items-center.mb-5
       .col-lg-4
         figure
@@ -456,7 +458,7 @@
             i.fas.fa-angle-right
             | El efecto impositivo de la corrección de los errores de periodos anteriores, así como de los ajustes retroactivos efectuados al realizar cambios en las políticas contables se contabilizará de acuerdo con la Norma Internacional de Contabilidad (NIC 12), y se revelará la información requerida por esta norma. 
     .cajon.color-acento-contenido.p-4
-      p.mb-0 Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018), a través del siguiente enlace:
+      p Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018), a través del siguiente enlace:
     .row.mt_5.px-4.mb-5
       .col-lg-4
       .col-lg-8  

@@ -9,7 +9,7 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+      //figcaption Video: Leyenda del video
     #t_2_1.titulo-segundo
       h2 2.1 Hecho contable: concepto, clasificación
     img(src="@/assets/curso/t2/i1.jpg" alt="Documentos sobre un escritorio").mb-5
@@ -39,8 +39,8 @@
             .cajon.color-primario.p-4.mb-4
               h5 Ejemplo:
               p.mb-0 Cuando se realiza una consignación bancaria, se utilizan dos cuentas del activo. Se debita la cuenta de banco, registrando el aumento y la cuenta de efectivo (caja), se acredita registrando la disminución, como se relaciona a continuación:
-            .col-lg-8.mx-auto.mb-5
-              .tabla-b.color-acento-contenido.mb-5.fblanco
+            .col-lg-9.mx-auto.mb-5
+              .tabla-b.color-acento-contenido.mb-5.fblanco.nopadding
                 table
                   thead.text-center.fac
                     tr
@@ -143,136 +143,136 @@
         img(src="@/assets/curso/t2/f8.svg" alt="Mujer llevando documentos")
       .col-lg-7
         LineaTiempoD.color-acento-contenido.mb-5
-          .row(numero="1" titulo="Activo")
+          div(numero="1" titulo="Activo")
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Recurso controlado por la entidad.
+                p Recurso controlado por la entidad.
               li
                 i.fas.fa-angle-right
-                | Surge de eventos pasados. 
+                p Surge de eventos pasados. 
               li
                 i.fas.fa-angle-right
-                | En un futuro se espera recibir beneficios económicos.
+                p En un futuro se espera recibir beneficios económicos.
               li
                 i.fas.fa-angle-right
-                | Es fiable su valor.
+                p Es fiable su valor.
             h5 Movimiento de las cuentas del activo:
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Inician y aumentan en el débito.
+                p Inician y aumentan en el débito.
               li
                 i.fas.fa-angle-right
-                | Disminuyen y se cancelan en el crédito.
+                p Disminuyen y se cancelan en el crédito.
               li
                 i.fas.fa-angle-right
-                | Su saldo es débito.
-          .row(numero="2" titulo="Pasivo")
+                p Su saldo es débito.
+          div(numero="2" titulo="Pasivo")
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Obligación presente de la entidad.
+                p Obligación presente de la entidad.
               li
                 i.fas.fa-angle-right
-                | Surge de eventos pasados. 
+                p Surge de eventos pasados. 
               li
                 i.fas.fa-angle-right
-                | Se espera desprender de beneficios económicos cuando se cancele parcial o totalmente la deuda.
+                p Se espera desprender de beneficios económicos cuando se cancele parcial o totalmente la deuda.
               li
                 i.fas.fa-angle-right
-                | Su valor sea fiable.
+                p Su valor sea fiable.
             h5 Movimiento de las cuentas del pasivo:
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Inician y aumentan en el crédito.
+                p Inician y aumentan en el crédito.
               li
                 i.fas.fa-angle-right
-                | Disminuyen y se cancelan en el débito.
+                p Disminuyen y se cancelan en el débito.
               li
                 i.fas.fa-angle-right
-                | Su saldo es crédito.
-          .row(numero="3" titulo="Patrimonio")
+                p Su saldo es crédito.
+          div(numero="3" titulo="Patrimonio")
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Es la diferencia entre el activo y pasivo.
+                p Es la diferencia entre el activo y pasivo.
             h5 Movimiento de las cuentas del patrimonio:
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Inician y aumentan en el crédito.
+                p Inician y aumentan en el crédito.
               li
                 i.fas.fa-angle-right
-                | Disminuyen y se cancelan en el débito.
+                p Disminuyen y se cancelan en el débito.
               li
                 i.fas.fa-angle-right
-                | Su saldo es crédito.
+                p Su saldo es crédito.
     h3 Cuentas nominales o de resultado:
     p.mb-5 Denominadas de esta forma porque pertenecen al estado de resultados. Son aquellas cuentas que determinan la utilidad o pérdida del ejercicio al finalizar el periodo contable. Se componen de las cuentas de ingresos, gastos y costos de venta o producción, de acuerdo con el tipo de empresa y la norma local (Colombia), que se relaciona en el Decreto 2649 de 1993. Considérese que bajo normas internacionales no se relaciona la figura de costos, pues estos hacen parte de los gastos, los cuales disminuyen los beneficios económicos. Sin embargo, se relaciona su concepto para dar claridad al contenido.
     .row.align-items-center.mb-5
       .col-lg-7
         LineaTiempoD.color-acento-contenido.mb-5
-          .row(numero="1" titulo="Ingresos")
+          div(numero="1" titulo="Ingresos")
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Hace referencia a los incrementos de los beneficios económicos.
+                p Hace referencia a los incrementos de los beneficios económicos.
               li
                 i.fas.fa-angle-right
-                | Su incremento aumenta el patrimonio neto. 
+                p Su incremento aumenta el patrimonio neto. 
             h5 Movimiento de las cuentas  de ingresos:
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Inician y aumentan en el crédito.
+                p Inician y aumentan en el crédito.
 
               li
                 i.fas.fa-angle-right
-                | Disminuyen y se cancelan en el débito.
+                p Disminuyen y se cancelan en el débito.
               li
                 i.fas.fa-angle-right
-                | Su saldo es crédito.
-          .row(numero="2" titulo="Gastos")
+                p Su saldo es crédito.
+          div(numero="2" titulo="Gastos")
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Relaciona las disminuciones de los beneficios económicos.
+                p Relaciona las disminuciones de los beneficios económicos.
               li
                 i.fas.fa-angle-right
-                | Dan como resultado disminuciones en el patrimonio neto.
+                p Dan como resultado disminuciones en el patrimonio neto.
             h5 Movimiento de las cuentas  de gastos:
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Inician y aumentan en el débito.
+                p Inician y aumentan en el débito.
               li
                 i.fas.fa-angle-right
-                | Disminuyen y se cancelan en el crédito.
+                p Disminuyen y se cancelan en el crédito.
               li
                 i.fas.fa-angle-right
-                | Su saldo es débito.
-          .row(numero="3" titulo="Costos")
+                p Su saldo es débito.
+          div(numero="3" titulo="Costos")
             p Hace referencia a la inversión que se realiza para adquirir el producto que se desea ofertar o se pretender fabricar, depende del objeto social de la empresa. Se clasifican en costos de ventas y costos de producción:
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Costos de ventas: son aplicados por las empresas comerciales, que se dedican a la compra y venta de bienes. El costo de estas empresas es el valor de adquisición del bien.
+                p <b>Costos de ventas:</b> son aplicados por las empresas comerciales, que se dedican a la compra y venta de bienes. El costo de estas empresas es el valor de adquisición del bien.
               li
                 i.fas.fa-angle-right
-                | Costos de producción: son calculados por las empresas industriales que se encargan de transformar materia prima en producto terminado. Allí intervienen los elementos del costo: Materia Prima Directa (MPD), Mano de Obra Directa (MOD), Costos Indirectos de Fabricación (CIF).
+                p <b>Costos de producción:</b> son calculados por las empresas industriales que se encargan de transformar materia prima en producto terminado. Allí intervienen los elementos del costo: Materia Prima Directa (MPD), Mano de Obra Directa (MOD), Costos Indirectos de Fabricación (CIF).
             h5 Movimiento de las cuentas  de costos:
             ul.lista-ul.ms-5.cac__ul
               li
                 i.fas.fa-angle-right
-                | Inician y aumentan en el débito.
+                p Inician y aumentan en el débito.
               li
                 i.fas.fa-angle-right
-                | Disminuyen y se cancelan en el crédito.
+                p Disminuyen y se cancelan en el crédito.
               li
                 i.fas.fa-angle-right
-                | Su saldo es débito.
+                p Su saldo es débito.
       .col-lg-4.mx-auto
         img(src="@/assets/curso/t2/f9.svg" alt="Mujer consultando documentos")
     p.mb-5 Finalmente, para resumir el movimiento y naturaleza de las cuentas, lo invitamos a revisar el siguiente gráfico:
@@ -309,6 +309,7 @@
               td  Costos
               td  Débito
               td  Crédito
+        figcaption Fuente: elaboración propia
     p Para lograr uniformidad en el momento de registrar las transacciones realizadas por las empresas y, dar claridad y confiabilidad en dichos registros se crea el Plan Único de Cuentas -PUC-. Por este motivo, en Colombia existen 19 PUC, entre ellos se encuentran el decreto 2650 de 1993, que es utilizado para comerciantes.
     .row.align-items-center.mb-5
       .col-lg-3.mx-auto
@@ -337,9 +338,9 @@
         table.text-center
           thead.fac
             tr
-              td Clase
-              td El primer dígito
-              td 1 ACTIVO
+              th Clase
+              th El primer dígito
+              th 1 ACTIVO
           tbody
             tr
               th Grupo
@@ -455,7 +456,7 @@
           figcaption Fuente: elaboración propia
     p Se registra el activo - equipo de computación, presentando aumento (débito) y acreedores varios en el pasivo (crédito) incrementando el valor de la deuda.
     .cajon.color-primario.p-4.mb-5
-      p.mb-0 <b>Ejemplo 3.</b> Se adquiere mercancía por valor de $2.000.000 a crédito, se aplica IVA a la tarifa del 19 %.
+      p.mb-0 <b>Ejemplo 3.</b> El 15 de octubre se cancela el valor de adquisición del equipo de computación relacionado en el ejercicio anterior, con cheque.
     .col-lg-7.mx-auto.mb-5
       .tabla-b.color-acento-contenido.mb-5.fblanco
         table.text-center
@@ -568,7 +569,8 @@
         img(src="@/assets/curso/t2/activo.svg" alt="Activo").px-5
     .row.mb-5
       .col-lg-6
-        p El principio de partida doble contribuye al cumplimiento de la ecuación contable o patrimonial, teniendo en cuenta que al presentarse la igualdad entre los débitos y los créditos se reflejará el equilibrio de las cuentas de activo, pasivo y patrimonio, denominadas comúnmente como cuentas reales o de balance. Estas son utilizadas para elaborar el estado de situación financiera (Tapia y Jiménez, 2018; Cuaspa, 2013; Vilches; 2019; Angulo, 2018).
+        p Lo anterior indica, que la sumatoria de pasivo y patrimonio debe ser igual al activo. Así, si el total activo se encuentra representado por $15.000.000, la suma del pasivo y patrimonio debe dar el mismo valor. De esta manera, se cumple con la ecuación contable (Tapia y Jiménez, 2018; Cuaspa, 2013; Vilches; 2019; Angulo, 2018).
+        p En términos matemáticos, la ecuación puede reestructurarse de las siguientes formas:
         img.mb-4(src="@/assets/curso/t2/pasivo.svg" alt="Pasivo").px-5
         img(src="@/assets/curso/t2/patrimonio.svg" alt="Patrimonio").px-5
       .col-lg-5.mx-auto
@@ -640,7 +642,7 @@
               td Propiedad, planta y equipo	 
               td $ 9.000.000 
             tr
-              td obligaciones financieras	 
+              td Obligaciones financieras	 
               td $ 15.000.000 
             tr
               td Capital

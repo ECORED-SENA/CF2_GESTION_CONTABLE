@@ -30,6 +30,12 @@ $primario25: #6595BF40
   background-color: #636363 !important
   color: $white !important
 
+.fg
+  background-color: #5e6178
+  padding: 1rem 1.5rem 0.5rem
+  margin: 1.8rem
+  width: 28%
+
 .fblanco
   background: $white !important
 
@@ -121,7 +127,8 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
       width: $crd-icon-size
   &__txt
     flex: 1 
-    order: 2  
+    order: 2
+    overflow: auto
 
 .fr
   float: right !important
@@ -157,3 +164,14 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
 .tabla-b
   th, td
     border: 2px dashed #000000
+
+.linea-tiempo-c__header__item__year
+  height: 50px
+
+@media screen and ( max-width: 480px )
+  .nopadding
+    table
+      min-width: 320px !important
+    th
+      padding: 0 !important
+  
