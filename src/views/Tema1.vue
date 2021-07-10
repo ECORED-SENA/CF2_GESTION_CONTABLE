@@ -133,9 +133,9 @@
         .row.mt_5.px-4
           .col-lg-4
           .col-lg-8  
-            a.anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-iasb-emitidas-en-2018/5-c-marco-conceptual-para-la" target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="/downloads/MCIF.pdf" target="_blank")
               .anexo__icono
-                img(src="@/assets/template/icono-link.svg" alt="icono enlace")
+                img(src="@/assets/template/icono-pdf.svg" alt="icono enlace")
               .anexo__texto
                 p <b>Enlace web.</b> Marco Conceptual para la Información Financiera
     .row.align-items-center.mb-5
@@ -276,9 +276,9 @@
     .row.mt_5.px-4
       .col-lg-4
       .col-lg-8  
-        a.anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-iasb-emitidas-en-2018/5-c-marco-conceptual-para-la" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="/downloads/MCIF.pdf" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg" alt="icono enlace")
+            img(src="@/assets/template/icono-pdf.svg" alt="icono enlace")
           .anexo__texto
             p <b>Enlace web.</b> Marco Conceptual para la Información Financiera
     Separador
@@ -317,66 +317,67 @@
             p.mb-0 El principal objetivo de dar de baja las cuentas es reflejar la realidad económica de la empresa, donde se registran los elementos que cumplan los criterios de reconocimiento y medición, con el fin de que sean reflejados en los estados financieros y, en consecuencia, se genere información útil, relevante y oportuna.
       .row(titulo="Medición").p-4
         p A continuación, se describen las bases, características, factores y técnicas para tener en cuenta al momento de realizar la medición de un elemento de los estados financieros (Consejo de Normas Internacionales de Contabilidad, 2018).
-      div(titulo="Bases de medición").p-4
-        p.mb-5 La base de medición es la cuantificación en términos monetarios de los elementos de los estados financieros. De acuerdo con las políticas y lineamientos normativos se presentan diferentes bases, por ello, es importante seleccionar la base de medición más adecuada para presentar la información financiera atendiendo a los estándares internacionales (Consejo de Normas Internacionales de Contabilidad, 2018):
-        .crd_01.mb-4
-          .crd_01__icon
-            img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
-          .crd_01__txt
-            h5 Costo histórico
-            p.mb-0 Es el precio de transacción, el valor de adquisición, de compra o creación de un activo. Es el valor de la contraprestación recibida al obtener el pasivo.
-        .crd_01.mb-4
-          .crd_01__icon
-            img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
-          .crd_01__txt
-            h5 Valor corriente
-            .bloque-texto-d.color-primario.p-4
-              .bloque-texto-d__texto.mb-2
-                i.fas.fa-quote-left
-                h3.text-regular Las mediciones del valor corriente proporcionan información monetaria sobre activos, pasivos, e ingresos y gastos relacionados, usando información actualizada para reflejar las condiciones en la fecha de medición. Debido a la continua actualización, los valores corrientes de activos y pasivos reflejan los cambios, desde la fecha de medición anterior, en las estimaciones de flujos de efectivo y otros factores reflejados en los valores.
-                .h5.mb-0.text-right (Consejo de Normas Internacionales de Contabilidad, 2018. p. 44).
-                i.fas.fa-quote-right.fr
-        .crd_01.mb-4
-          .crd_01__icon
-            img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
-          .crd_01__txt
-            h5 Valor razonable
-            .bloque-texto-d.color-primario.p-4
-              .bloque-texto-d__texto.mb-2
-                i.fas.fa-quote-left
-                h3.text-regular Valor razonable es el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado, en la fecha de la medición.
-                .h5.mb-0.text-right (Consejo de Normas Internacionales de Contabilidad, 2018. p. 44).
-                i.fas.fa-quote-right.fr
-        .crd_01.mb-4
-          .crd_01__icon
-            img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
-          .crd_01__txt
-            h5 Valor en uso y valor de cumplimiento
-            .bloque-texto-d.color-primario.p-4
-              .bloque-texto-d__texto.mb-2
-                i.fas.fa-quote-left
-                h3.text-regular El valor en uso es el valor presente de los flujos de efectivo, o de otros beneficios económicos, que una entidad espera obtener del uso de un activo y de su disposición final. El valor de cumplimiento es el valor presente de los flujos de efectivo o de otros beneficios económicos, que una entidad espera verse obligada a transferir a medida que satisface un pasivo.
-                .h5.mb-0.text-right (Consejo de Normas Internacionales de Contabilidad, 2018. p. 45).
-                i.fas.fa-quote-right.fr
-        .crd_01.mb-4
-          .crd_01__icon
-            img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
-          .crd_01__txt
-            h5 Costo corriente
-            .bloque-texto-d.color-primario.p-4
-              .bloque-texto-d__texto.mb-2
-                i.fas.fa-quote-left
-                h3.text-regular El costo corriente de un activo es el costo de un activo equivalente en la fecha de medición, que comprende la contraprestación que se pagaría en la fecha de medición más los costos de transacción en los que se incurriría en esa fecha.
-                .h5.mb-0.text-right (Consejo de Normas Internacionales de Contabilidad, 2018. p. 45).
-                i.fas.fa-quote-right.fr
+        div.p-4
+          h4.mb-4 Bases de medición
+          p.mb-5 La base de medición es la cuantificación en términos monetarios de los elementos de los estados financieros. De acuerdo con las políticas y lineamientos normativos se presentan diferentes bases, por ello, es importante seleccionar la base de medición más adecuada para presentar la información financiera atendiendo a los estándares internacionales (Consejo de Normas Internacionales de Contabilidad, 2018):
+          .crd_01.mb-4
+            .crd_01__icon
+              img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
+            .crd_01__txt
+              h5 Costo histórico
+              p.mb-0 Es el precio de transacción, el valor de adquisición, de compra o creación de un activo. Es el valor de la contraprestación recibida al obtener el pasivo.
+          .crd_01.mb-4
+            .crd_01__icon
+              img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
+            .crd_01__txt
+              h5 Valor corriente
+              .bloque-texto-d.color-primario.p-4
+                .bloque-texto-d__texto.mb-2
+                  i.fas.fa-quote-left
+                  h3.text-regular Las mediciones del valor corriente proporcionan información monetaria sobre activos, pasivos, e ingresos y gastos relacionados, usando información actualizada para reflejar las condiciones en la fecha de medición. Debido a la continua actualización, los valores corrientes de activos y pasivos reflejan los cambios, desde la fecha de medición anterior, en las estimaciones de flujos de efectivo y otros factores reflejados en los valores.
+                  .h5.mb-0.text-right (Consejo de Normas Internacionales de Contabilidad, 2018. p. 44).
+                  i.fas.fa-quote-right.fr
+          .crd_01.mb-4
+            .crd_01__icon
+              img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
+            .crd_01__txt
+              h5 Valor razonable
+              .bloque-texto-d.color-primario.p-4
+                .bloque-texto-d__texto.mb-2
+                  i.fas.fa-quote-left
+                  h3.text-regular Valor razonable es el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado, en la fecha de la medición.
+                  .h5.mb-0.text-right (Consejo de Normas Internacionales de Contabilidad, 2018. p. 44).
+                  i.fas.fa-quote-right.fr
+          .crd_01.mb-4
+            .crd_01__icon
+              img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
+            .crd_01__txt
+              h5 Valor en uso y valor de cumplimiento
+              .bloque-texto-d.color-primario.p-4
+                .bloque-texto-d__texto.mb-2
+                  i.fas.fa-quote-left
+                  h3.text-regular El valor en uso es el valor presente de los flujos de efectivo, o de otros beneficios económicos, que una entidad espera obtener del uso de un activo y de su disposición final. El valor de cumplimiento es el valor presente de los flujos de efectivo o de otros beneficios económicos, que una entidad espera verse obligada a transferir a medida que satisface un pasivo.
+                  .h5.mb-0.text-right (Consejo de Normas Internacionales de Contabilidad, 2018. p. 45).
+                  i.fas.fa-quote-right.fr
+          .crd_01.mb-4
+            .crd_01__icon
+              img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
+            .crd_01__txt
+              h5 Costo corriente
+              .bloque-texto-d.color-primario.p-4
+                .bloque-texto-d__texto.mb-2
+                  i.fas.fa-quote-left
+                  h3.text-regular El costo corriente de un activo es el costo de un activo equivalente en la fecha de medición, que comprende la contraprestación que se pagaría en la fecha de medición más los costos de transacción en los que se incurriría en esa fecha.
+                  .h5.mb-0.text-right (Consejo de Normas Internacionales de Contabilidad, 2018. p. 45).
+                  i.fas.fa-quote-right.fr
     .cajon.color-acento-contenido.p-4
       p Con el fin de ampliar sus conocimientos sobre la temática, por favor revise el Marco Conceptual para la Información Financiera (Consejo de Normas Internacionales de Contabilidad, 2018), a través del siguiente enlace:
     .row.mt_5.px-4.mb-5
       .col-lg-4
       .col-lg-8  
-        a.anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-iasb-emitidas-en-2018/5-c-marco-conceptual-para-la" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="/downloads/MCIF.pdf" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg" alt="icono enlace")
+            img(src="@/assets/template/icono-pdf.svg" alt="icono enlace")
           .anexo__texto
             p <b>Enlace web.</b> Marco Conceptual para la Información Financiera
     p Para seleccionar las bases de medición, que se relacionarán en el Manual de políticas contables, es fundamental analizar el tipo de empresa y su entorno, tendiendo en cuenta las circunstancias y eventos que se generen para determinar lo más adecuado para la organización. Aunado a ello, se tiene en cuenta el concepto y características de los elementos de los estados financieros, las cualidades fundamentales y de mejora.
@@ -462,9 +463,9 @@
     .row.mt_5.px-4.mb-5
       .col-lg-4
       .col-lg-8  
-        a.anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-iasb-emitidas-en-2018/5-c-marco-conceptual-para-la" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="/downloads/MCIF.pdf" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg" alt="icono enlace")
+            img(src="@/assets/template/icono-pdf.svg" alt="icono enlace")
           .anexo__texto
             p <b>Enlace web.</b> Marco Conceptual para la Información Financiera
     h3 Elementos

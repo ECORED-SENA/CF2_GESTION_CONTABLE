@@ -282,6 +282,22 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Patricia Mantilla Galvis',
+        cargo: 'Instructora',
+        centro: 'Centro de Servicios Financieros. Regional Distrito Capital',
+      },
+      {
+        nombre: 'Maryuri Agudelo Franco',
+        cargo: 'Diseño Instruccional',
+        centro: 'Centro de diseño metrología. Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julieth Paola Vital López',
+        cargo: 'Corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica. Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
