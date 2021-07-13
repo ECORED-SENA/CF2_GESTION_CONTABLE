@@ -655,7 +655,7 @@
       table
         tbody
           tr
-            th <img src="@/assets/curso/t2/tabla1.svg" alt="Tabla 1"/>
+            th <img src="@/assets/curso/t2/tabla2.svg" alt="Tabla 1"/>
     p Podemos observar que se refleja la ecuación contable, donde se tiene:
     .row.mb-5.text-center.texto-blanco
       .col-lg-4.fg
