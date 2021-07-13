@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Información Contable',
+        titulo: 'Información contable',
         desarrolloContenidos: true,
         subMenu: [
           {
