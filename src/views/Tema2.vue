@@ -6,9 +6,9 @@
       .titulo-principal__numero
         span 2
       h1 Fundamentos contables
-    figure.mb-5
+    figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/lok_ojpOwcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       //figcaption Video: Leyenda del video
     #t_2_1.titulo-segundo
       h2 2.1 Hecho contable: concepto, clasificación
@@ -40,7 +40,7 @@
               h5 Ejemplo:
               p.mb-0 Cuando se realiza una consignación bancaria, se utilizan dos cuentas del activo. Se debita la cuenta de banco, registrando el aumento y la cuenta de efectivo (caja), se acredita registrando la disminución, como se relaciona a continuación:
             .col-lg-9.mx-auto.mb-5
-              .tabla-b.color-acento-contenido.mb-5.fblanco.nopadding
+              tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco.nopadding
                 table
                   thead.text-center.fac
                     tr
@@ -71,7 +71,7 @@
               h5 Ejemplo:
               p.mb-0 Se realiza una venta por $10.000.000 a crédito, calcular IVA del 19 %.  En esta transacción intervienen tres cuentas: ingresos por actividad ordinarias (crédito) correspondiente a los ingresos, IVA generado (débito) de los pasivos y, finalmente, la cuenta de clientes (crédito) perteneciente al activo. De acuerdo con la naturaleza de las cuentas y si se presenta un aumento o disminución, se registra la transacción mediante el asiento contable como se observa a continuación:
             .col-lg-8.mx-auto.mb-5
-              .tabla-b.color-acento-contenido.mb-5.fblanco
+              tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
                 table
                   thead.text-center.fac
                     tr
@@ -277,7 +277,7 @@
         img(src="@/assets/curso/t2/f9.svg" alt="Mujer consultando documentos")
     p.mb-5 Finalmente, para resumir el movimiento y naturaleza de las cuentas, lo invitamos a revisar el siguiente gráfico:
     .col-lg-7.mx-auto.mb-5
-      .tabla-b.color-acento-contenido.mb-5.fblanco
+      tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
         table.text-center
           thead.fac
             tr
@@ -334,7 +334,7 @@
     h3 Catálogo de cuentas
     p.mb-5 Allí se encuentran registradas las cuentas con sus respectivos niveles, los cuales se revisan a continuación con un ejemplo:
     .col-lg-7.mx-auto.mb-5
-      .tabla-b.color-acento-contenido.mb-5.fblanco
+      tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
         table.text-center
           thead.fac
             tr
@@ -361,7 +361,7 @@
         figcaption Fuente: Decreto 2650 de 1993
     p.mb-5 Las clases que expresan cada dígito son:
     .col-lg-7.mx-auto.mb-5
-      .tabla-b.color-acento-contenido.mb-5.fblanco
+      tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
         table.text-center
           thead.fac
             tr
@@ -403,7 +403,7 @@
     .cajon.color-primario.p-4.mb-5
       p.mb-0 <b>Ejemplo 1.</b> Se adquiere mercancía por valor de $2.000.000 a crédito, se aplica IVA a la tarifa del 19 %.
     .col-lg-7.mx-auto.mb-5
-      .tabla-b.color-acento-contenido.mb-5.fblanco
+      tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
         table.text-center
           thead.fac
             tr
@@ -433,7 +433,7 @@
       p.mb-0 <b>Ejemplo 2.</b> El 15 de septiembre de 2020, se adquiere un computador por valor de $3.800.000, para uso en la empresa, se cancela a 30 días.
     .row.mb-5
       .col-lg-7.mx-auto.mb-5
-        .tabla-b.color-acento-contenido.fblanco
+        tabla-b(data-aos="fade-left").color-acento-contenido.fblanco
           table.text-center
             thead.fac
               tr
@@ -458,7 +458,7 @@
     .cajon.color-primario.p-4.mb-5
       p.mb-0 <b>Ejemplo 3.</b> El 15 de octubre se cancela el valor de adquisición del equipo de computación relacionado en el ejercicio anterior, con cheque.
     .col-lg-7.mx-auto.mb-5
-      .tabla-b.color-acento-contenido.mb-5.fblanco
+      tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
         table.text-center
           thead.fac
             tr
@@ -483,7 +483,7 @@
     .cajon.color-acento-contenido.p-4.mb-5
       p.mb-0 <b>Ejemplo 4.</b> Se constituye la empresa Sandles SAS, un socio aporta $10.000.000 en efectivo y el segundo socio aporta maquinaria y equipo por $10.000.000.
     .col-lg-7.mx-auto.mb-5
-      .tabla-b.color-acento-contenido.mb-5.fblanco
+      tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
         table.text-center
           thead.fac
             tr
@@ -512,7 +512,7 @@
     .cajon.color-primario.p-4.mb-5
       p.mb-0 <b>Ejemplo 5:</b> La empresa cancela arriendo del mes de octubre por valor de $800.000 en efectivo.
     .col-lg-7.mx-auto.mb-5
-      .tabla-b.color-acento-contenido.mb-5.fblanco
+      tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
         table.text-center
           thead.fac
             tr
@@ -578,7 +578,7 @@
     .cajon.color-primario.p-4.mb-5
       p.mb-0 <b>Ejemplo 1.</b> La empresa Surtimodas SAS, posee la siguiente información a corte de 31 de diciembre de 2020. Se solicita determinar la ecuación contable:
     .col-lg-7.mx-auto.mb-5
-      .tabla-b.color-acento-contenido.mb-5.fblanco
+      tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
         table.text-center
           thead.fac
             tr
@@ -613,7 +613,7 @@
     p La ecuación que debe verificarse es la siguiente:
     .col-lg-5.mx-auto.mb-5
       img(src="@/assets/curso/t2/activo.svg" alt="Activo")
-    .tabla-b.color-acento-contenido.mb-5.fblanco
+    tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
       table
         tbody
           tr
@@ -622,7 +622,7 @@
     .cajon.color-acento-contenido.p-4.mb-5
       p.mb-0 <b>Ejemplo 2.</b> La empresa Carvajal SAS, suministra la siguiente información del periodo contable 2020. Determine el patrimonio de la empresa:
     .col-lg-7.mx-auto.mb-5
-      .tabla-b.color-acento-contenido.mb-5.fblanco
+      tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
         table.text-center
           thead.fac
             tr
@@ -651,7 +651,7 @@
     p La ecuación aplicable en este caso es la siguiente:
     .col-lg-5.mx-auto.mb-5
       img(src="@/assets/curso/t2/patrimonio.svg" alt="Patrimonio")
-    .tabla-b.color-acento-contenido.mb-5.fblanco
+    tabla-b(data-aos="fade-left").color-acento-contenido.mb-5.fblanco
       table
         tbody
           tr

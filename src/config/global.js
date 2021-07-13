@@ -237,29 +237,6 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Apuntes de Contabilidad básica.',
-      tipo: 'Capítulo 1',
-      descarga:
-        'Vilches, R. (2019). Apuntes de contabilidad básica. Buenos Aires: El Cid Editor.',
-    },
-    {
-      texto: 'Contabilidad financiera, correlacionado con NIIF.',
-      descarga:
-        'Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. Ediciones de la U. Bogotá: Colombia.',
-    },
-    {
-      texto: 'Prácticas de Contabilidad',
-      tipo: 'Capítulo 1',
-      descarga:
-        'Aguilar, H. (2017). Prácticas de contabilidad. Grupo Editorial Patria. Ciudad de México: México.',
-    },
-    {
-      texto: 'Contabilidad financiera. (14a. ed.) Cengage.',
-      tipo: 'Capítulo 2',
-      descarga:
-        'Warren, C., Reeves, J. & Duchac, J. (2016). Contabilidad financiera. Cengage Learning. México: Ciudad de México.',
-    },
-    {
       texto:
         'Consejo Técnico de la Contaduría Pública (CTCP). Norma Internacional de Contabilidad (NIC) 8.',
       tipo: 'Norma',

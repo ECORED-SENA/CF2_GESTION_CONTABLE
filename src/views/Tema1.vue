@@ -120,9 +120,9 @@
     h3 Objetivos de la información contable
     p.mb-5 Según el Consejo de Normas Internacionales de Contabilidad (2018), el objetivo de la información financiera es:
     .row.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         img(src='@/assets/curso/t1/f12.svg', alt='Mujer viendo archivos contables')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .bloque-texto-d.color-primario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left.cac
@@ -163,7 +163,7 @@
         h3.text-center Representación fiel
         p.text-center La información debe estar completa de acuerdo con los hechos económicos presentados. Así mismo, debe ser neutral y objetiva, evitando los sesgos en la información presentada y garantizando que esté libre de error.
     h3.mb-5 Características de mejora
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
       .tarjeta.color-acento-contenido--borde.p-5(titulo="Comparabilidad")
         .row.align-items-center
           .col-lg-6
@@ -282,7 +282,7 @@
           .anexo__texto
             p <b>Enlace web.</b> Marco Conceptual para la Información Financiera
     Separador
-    #t_1_3.titulo-segundo
+    #t_1_3.titulo-segundo(data-aos="fade-left")
       h2 1.3 Reconocimiento, medición, presentación, revelación y baja de cuentas de los elementos de los estados financieros
     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
@@ -320,13 +320,13 @@
         div.p-4
           h4.mb-4 Bases de medición
           p.mb-5 La base de medición es la cuantificación en términos monetarios de los elementos de los estados financieros. De acuerdo con las políticas y lineamientos normativos se presentan diferentes bases, por ello, es importante seleccionar la base de medición más adecuada para presentar la información financiera atendiendo a los estándares internacionales (Consejo de Normas Internacionales de Contabilidad, 2018):
-          .crd_01.mb-4
+          .crd_01.mb-4(data-aos="fade-left")
             .crd_01__icon
               img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
             .crd_01__txt
               h5 Costo histórico
               p.mb-0 Es el precio de transacción, el valor de adquisición, de compra o creación de un activo. Es el valor de la contraprestación recibida al obtener el pasivo.
-          .crd_01.mb-4
+          .crd_01.mb-4(data-aos="fade-right")
             .crd_01__icon
               img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
             .crd_01__txt
@@ -337,7 +337,7 @@
                   h3.text-regular Las mediciones del valor corriente proporcionan información monetaria sobre activos, pasivos, e ingresos y gastos relacionados, usando información actualizada para reflejar las condiciones en la fecha de medición. Debido a la continua actualización, los valores corrientes de activos y pasivos reflejan los cambios, desde la fecha de medición anterior, en las estimaciones de flujos de efectivo y otros factores reflejados en los valores.
                   .h5.mb-0.text-right (Consejo de Normas Internacionales de Contabilidad, 2018. p. 44).
                   i.fas.fa-quote-right.fr
-          .crd_01.mb-4
+          .crd_01.mb-4(data-aos="fade-left")
             .crd_01__icon
               img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
             .crd_01__txt
@@ -348,7 +348,7 @@
                   h3.text-regular Valor razonable es el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes de mercado, en la fecha de la medición.
                   .h5.mb-0.text-right (Consejo de Normas Internacionales de Contabilidad, 2018. p. 44).
                   i.fas.fa-quote-right.fr
-          .crd_01.mb-4
+          .crd_01.mb-4(data-aos="fade-left")
             .crd_01__icon
               img(src="@/assets/curso/icon-libros.svg", alt="icono libros").class          
             .crd_01__txt
@@ -394,7 +394,7 @@
       h2 1.4 Política contable
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/NhsdLCBUev4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       //figcaption Video: Política contable
     p.mb-5 Para diseñar las políticas contables es importante identificar el grupo de presentación de información financiera: Grupo 1-NIIF plenas, Grupo 2-NIIF Pymes, Grupo 3– NIF Microempresas. Según los lineamientos del Decreto Único Reglamentario -DUR- 2420 de 2015, el grupo 1, posee las siguientes características:
     .row.align-items-center.mb-5
