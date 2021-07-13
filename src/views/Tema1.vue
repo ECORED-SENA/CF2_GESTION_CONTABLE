@@ -133,7 +133,7 @@
         .row.mt_5.px-4
           .col-lg-4
           .col-lg-8  
-            a.anexo.mb-4.mb-lg-0(:href="obtenerLink=('/downloads/MCIF.pdf')", target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534345592-7193", target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg" alt="icono enlace")
               .anexo__texto
@@ -276,7 +276,7 @@
     .row.mt_5.px-4
       .col-lg-4
       .col-lg-8  
-        a.anexo.mb-4.mb-lg-0(:href="obtenerLink=('/downloads/MCIF.pdf')", target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534345592-7193", target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg" alt="icono enlace")
           .anexo__texto
@@ -375,7 +375,7 @@
     .row.mt_5.px-4.mb-5
       .col-lg-4
       .col-lg-8  
-        a.anexo.mb-4.mb-lg-0(:href="obtenerLink=('/downloads/MCIF.pdf')", target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534345592-7193", target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg" alt="icono enlace")
           .anexo__texto
@@ -463,7 +463,7 @@
     .row.mt_5.px-4.mb-5
       .col-lg-4
       .col-lg-8  
-        a.anexo.mb-4.mb-lg-0(href='/downloads/MCIF.pdf', target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534345592-7193", target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg" alt="icono enlace")
           .anexo__texto
